@@ -1,0 +1,115 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+}
+
+
+
+header{
+    display:flex;
+    justify-content:space-between;
+    /* position:fixed; */
+    left:0;
+    right:0;
+    
+    
+    border: 5px solid;
+    height: 75px;
+    align-items: center;
+    background-color: grey;
+    
+}
+
+nav {
+    margin-right: 2rem;
+    justify-content: space-between; 
+    font-size: 25px; 
+}
+
+#name {
+    margin-left: 2rem;
+    color:azure;
+    font-size: 25px;
+    }
+
+img{
+    width: 300px;
+    margin-top: 8rem;
+}
+#home {
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    text-align: center;
+    padding: 0px 25px 50px;
+    color: azure;
+    margin-bottom: 5rem;
+
+
+ }
+
+ html {
+    background-color: lightblue;
+ }
+
+ #about {
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    text-align: center;
+    /* padding: 0px 25px 50px; */
+    color: azure;
+    margin-top: 30px;
+    padding: 20px;
+
+
+    
+
+ }
+
+ .about-section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+ }
+ 
+ section {
+    border-top: 2px solid white;
+    font-size: 20px;
+ }
+
+ #portfolio {
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    text-align: center;
+    padding: 0px 25px 50px;
+    color: azure;
+
+ }
+
+ footer {
+    display:flex;
+    justify-content:space-between;
+    position: fixed;
+    left:0;
+    right:0;
+    bottom:0;
+    
+    border: 5px solid;
+    height: 75px;
+    align-items: center;
+    background-color: grey;
+
+ }
+
+ .about-header {
+    margin-bottom: 5rem;
+ }
+
+ 
+
+
